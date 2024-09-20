@@ -1,0 +1,31 @@
+body{
+    background-color: #C1D7AE;
+}
+
+
+input[type="text"], input[type="password"], input[type="search"], select, input[type="date"] {
+    width: 20%;
+    cursor: pointer; 
+    border: none; 
+
+}
+
+input[type="email"] {
+    cursor: text;
+}
+
+input[type="submit"] {
+    width: 100px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajanvaraus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+        <form> 
+            <label>Sähköposti: <br> 
+            <input type="email" class="form-control" id="sposti" name="sposti" placeholder="name@ecample.com" required></label><br><br>
+
+
+            <label> Valitse aihe: <br></label>
+            <select name="Valitse aihe:" id="Aihe">
+                <option value="">Valitse aihe</option>
+                <option value="15min">15min</option>
+                <option value="20min">20min</option>
+                <option value="25min">25min</option>
+                <option value="30min">30min</option>
+            </select> <br> <br>
+
+
+            <label> Valitse paikka: <br></label>
+            <select name="Valitse paikka" id="paikka" required>
+                <option value="">Valitse paikka</option>
+                <option value="Paikka1">Paikka 1</option>
+                <option value="Paikka2">Paikka 2</option>
+                <option value="Paikka3">Paikka 3</option>
+                <option value="Paikka4">Paikka 4</option>
+            </select> <br> <br>
+
+
+            <label>Valitse päivä: <br> <input type="date" name="date" required></label> <br> <br>
+
+
+            <h4>Valitse aika: </h4>
+            <input type="radio" id="Aika" name="Aika" value="1200" required>
+            <label for="Aika">12:00</label><br>
+
+            <input type="radio" id="Aika2" name="Aika" value="1300" required>
+            <label for="Aika2">13:00</label><br>
+
+            <input type="radio" id="Aika3" name="Aika" value="1400" required>
+            <label for="Aika3">14:00</label><br>
+
+            <input type="radio" id="Aika4" name="Aika" value="1500" required>
+            <label for="Aika4">15:00</label><br><br>
+
+            <input type="submit" value="Lähetä">
+        </form>
+    </section>
+    
+    <footer>
+        <h5>Kimi Truong &copy;</h5>        
+    </footer>
+
+</body>
+</html>
